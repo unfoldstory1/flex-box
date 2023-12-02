@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    color: #F9FAF8;
+    padding: 10px 10%;
+}
+
+.head-font {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.right-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8
+}
+
+li {
+    list-style-type: none;
+}
+
+.hero {
+    height: 400px;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.hero-bundle {
+    flex: 1;
+}
+
+.hero-img {
+    flex: 1;
+    height: 200px;
+    max-width: 500px;
+    border: 1px solid red;
+    background: #5a5a5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img > div {
+    color:#F9FAF8
+}
+
+
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+p {
+    color:#F9FAF8;
+    font-size: 18px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    border: white;
+    font-size: 20px;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 40px;
+    color: #1F2937;
+    font-weight: 800;
+    margin: 36px;
+}
+
+.grey-container {
+    height: 300px;
+    width: 100%;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex:auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    padding: 20px 30px;
+    margin: 32px;
+}
+
+.box {
+    background: #3882f6;
+    height: 100px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 16px;
+}
+
+.action-text {
+    color: #F9FAF8;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.action-para {
+    color: #F9FAF8;
+    font-size: 20px; 
+}
+
+.action-button {
+    height: 35%;
+    width: 7%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+
+
+
+.footer {
+    height: 50px;
+    background: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px 20px 0px;
+    margin-top: 50px;
+}
